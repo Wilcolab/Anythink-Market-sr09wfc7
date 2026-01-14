@@ -1,13 +1,12 @@
-FROM node:18-alpine
+FROM node:14
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 COPY package*.json ./
-
 RUN npm install
 
 COPY . .
 
 EXPOSE 8001
 
-CMD ["npm", "start"]
+CMD ["npx", "nodemon", "src/app.js"]

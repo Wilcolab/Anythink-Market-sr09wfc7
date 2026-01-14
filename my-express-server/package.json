@@ -1,19 +1,17 @@
 {
   "name": "my-express-server",
   "version": "1.0.0",
-  "description": "Express server with task management endpoints",
+  "description": "A simple Express server listening on port 8001.",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/app.js",
-    "dev": "nodemon src/app.js"
+    "start": "nodemon src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
-  }
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
 }

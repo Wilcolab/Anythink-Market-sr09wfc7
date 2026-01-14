@@ -1,4 +1,19 @@
+# Ignorar archivos de configuración de Node.js y dependencias
 node_modules
 npm-debug.log
-.git
-.gitignore
+yarn-error.log
+yarn-debug.log
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de caché
+.cache
+
+# Ignorar archivos de logs
+logs
+*.log
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
